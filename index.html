@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS:Flexbox</title>
+  <link rel="stylesheet" href="./basic.css">
+  <link rel="stylesheet" href="./index.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./Righteous/Righteous-Regular.ttf">
+  <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <section id="">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="./Images/logo.png"
+          style="height: 67px !important;width: 135px !important;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#banner">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#AboutUs">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section id="banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 padding_Text">
+          <!-- <a href=""><img src="./Images/image_tech.png" class="Div2_img img-fluid z-depth-1 "></a> -->
+
+        </div>
+        <div class="col-md-6 white_text">
+          <p class="promo-title" style="color: #fff !important;">BEST DIGITAL AGENCY</p>
+          <p class="padding_btn" style="color: #fff !important;">Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <a href="#Contact"><button type="button" class="btn btn-info btn-rounded btn-lg">Click for
+              Enquiries</i></button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="animation">
+  </section>
+
+  <section id="AboutUs">
+    <div class="container-fluid">
+      <h2 class="font-weight-bold text-center dark-grey-text pb-2 OurServpadding" style="color: #fff !important;">ABOUT
+        US</h2>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>About Company Page</h2>
+              <h4>Lorem ipsum..</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="col-sm-6">
+              <h2>Our Values</h2>
+              <h4><strong>MISSION:</strong> It is a long established fact that a reader will be distracted by the
+                readable content of a page when looking at its layout.</h4>
+              <p><strong>VISION:</strong>There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+                even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                isn't anything embarrassing hidden in the middle of text.</p>
+              <button type="button" class="btn btn-primary">Get in Touch</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img src="./Images/logo.png" class="img-fluid z-depth-1 img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Services">
+    <h2 class="font-weight-bold text-center dark-grey-text pb-2 OurServpadding" style="color: #fff !important;">Our
+      Services</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-xl-3 mb-4">
+          <div class="card text-center text-white">
+            <div class="card-body">
+              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="./Images/Services_1.jpg"
+                alt="Card image cap">
+              <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Website Development</a></h5>
+              <p class="mb-4" style="color: #fff !important;">Provides latest technology websites for the advancement of
+                your business solution.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3 mb-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="./Images/Services_2.jpg"
+                alt="Card image cap">
+              <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Social Media Promotions</a></h5>
+              <p class="mb-4" style="color: #fff !important;">Promote your product or services in less time with great
+                efficiency.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3 mb-4">
+          <div class="card text-center deep-purple lighten-1 text-white">
+            <div class="card-body">
+              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="./Images/Services_3.jpg"
+                alt="Card image cap">
+              <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Mobile App Development</a></h5>
+              <p class="mb-4" style="color: #fff !important;">Get Mobile Apps (Android / IOS) to add wings for your
+                business.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="./Images/Services_4.jpg"
+                alt="Card image cap">
+              <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Wordpress Websites</a></h5>
+              <p class="mb-4" style="color: #fff !important;">Provides best design as per your business requirement in
+                less rate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section pb-3 text-center" id="Testimonial">
+    <h1 class="section-heading h1 pt-4" style="color: #fff !important;">Testimonial</h1>
+    <p class="section-description" style="color: #fff !important;">Our Client says about services</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card testimonial-card">
+            <div class="card-up teal lighten-2">
+            </div>
+            <div class="avatar mx-auto white"><img src="./Images/Testimonial_Img1.png" alt="avatar mx-auto white"
+                class="rounded-circle img-fluid Testimonial_img">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title mt-1" style="color: #fff !important;">John Doe</h4>
+              <hr>
+              <p><i class="fas fa-quote-left" style="color: #fff !important;"></i> Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Eos,
+                adipisci.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card testimonial-card">
+            <div class="card-up blue lighten-2">
+            </div>
+            <div class="avatar mx-auto white"><img src="./Images/Testimonial_Img2.png" alt="avatar mx-auto white"
+                class="rounded-circle img-fluid Testimonial_img">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title mt-1" style="color: #fff !important;">Anna Aston</h4>
+              <hr>
+              <p><i class="fas fa-quote-left" style="color: #fff !important;"></i> Neque cupiditate assumenda in maiores
+                repudiandae mollitia
+                architecto.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card testimonial-card">
+            <div class="card-up deep-purple lighten-2"></div>
+            <div class="avatar mx-auto white"><img src="./Images/Testimonial_Img3.png" alt="avatar mx-auto white"
+                class="rounded-circle img-fluid Testimonial_img">
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title mt-1" style="color: #fff !important;">Maria Kate</h4>
+              <hr>
+              <p><i class="fas fa-quote-left" style="color: #fff !important;"></i> Delectus impedit saepe officiis ab
+                aliquam repellat, rem totam
+                unde ducimus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pb-3 text-center" id="Portfolio">
+    <h1 class="section-heading h1 pt-4" style="color: #fff !important;">Portfolio</h1>
+    <p class="section-description" style="color: #fff !important;">Sample Site what we designed for our clients</p>
+    <div class="container">
+      <div class="row">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner Careousel_items">
+            <div class="carousel-item active">
+              <div class="d-none d-lg-block">
+                <div class="slide-box">
+                  <img src="./Images/demo1.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo2.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo3.jpg" alt="First slide" class="px-2">                
+                  <img src="./Images/demo4.jpg" alt="First slide" class="px-2">
+                </div>
+              </div>
+              <div class="d-none d-md-block d-lg-none">
+                <div class="slide-box">
+                  <img src="./Images/demo1.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo2.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo3.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo4.jpg" alt="First slide" class="px-2">
+                </div>
+              </div>
+              <div class="d-none d-sm-block d-md-none">
+                <div class="slide-box">
+                  <img src="./Images/demo1.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo2.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo3.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo4.jpg" alt="First slide" class="px-2">
+                  <img src="./Images/demo1.jpg" alt="First slide" class="px-2">
+                </div>
+              </div>
+              <div class="d-block d-sm-none">
+                <img class="d-block w-100 px-2" src="https://picsum.photos/600/400/?image=0&random" alt="Seceond slide">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-none d-lg-block">
+                <div class="slide-box">
+                  <img src="./Images/demo1.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo2.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo3.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo4.jpg" alt="Seceond slide" class="px-2">
+                </div>
+              </div>
+              <div class="d-none d-md-block d-lg-none">
+                <div class="slide-box">
+                  <img src="./Images/demo1.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo2.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo3.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo4.jpg" alt="Seceond slide" class="px-2">
+                </div>
+              </div>
+              <div class="d-none d-sm-block d-md-none">
+                <div class="slide-box">
+                  <img src="./Images/demo1.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo2.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo3.jpg" alt="Seceond slide" class="px-2">
+                  <img src="./Images/demo4.jpg" alt="Seceond slide" class="px-2">
+                </div>
+              </div>
+              <div class="d-block d-sm-none">
+                <img src="./Images/demo1.jpg" alt="Seceond slide" class="px-2">
+                <img src="./Images/demo2.jpg" alt="Seceond slide" class="px-2">
+                <img src="./Images/demo3.jpg" alt="Seceond slide" class="px-2">
+                <img src="./Images/demo4.jpg" alt="Seceond slide" class="px-2">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Contact">
+    <div class="bg-info contact4 overflow-hiddedn position-relative">
+      <div class="row no-gutters">
+        <div class="container">
+          <div class="col-lg-6 contact-box mb-4 mb-md-0">
+            <div class="">
+              <h1 class="title font-weight-light text-white mt-2" style="color: #fff !important;">Contact Us</h1>
+              <form class="mt-3">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <input class="form-control text-white" type="text" placeholder="name">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <input class="form-control text-white" type="email" placeholder="email address">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <textarea class="form-control text-white" rows="3" placeholder="message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 d-flex align-items-center mt-2">
+                    <button type="submit" class="btn bg-white text-inverse px-3 py-2"><span> Submit</span></button>
+                    <!-- <span class="ml-auto text-white align-self-center"><i class="icon-phone mr-2"></i>251 546
+                      9442</span> -->
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 right-image">
+          <iframe width="800px" height="850px" frameborder="0"
+            style="border:0 !important; padding-top: 160px !important; padding-right: 60px !important;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.232759893894!2d77.69934651484938!3d12.956952418705228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae12336cac1167%3A0x33857608d9235f78!2sMarathahalli%20Bridge%2C%20Outer%20Ring%20Rd%2C%20Marathahalli%2C%20Bengaluru%2C%20Karnataka%20560037!5e0!3m2!1sen!2sin!4v1589111702400!5m2!1sen!2sin"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
+              style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+              <p>Don’t miss any updates of our Company.!</p>
+              <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                <p class="mchimp-errmessage" style="display: none;"></p>
+                <p class="mchimp-sucmessage" style="display: none;"></p>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
+              style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Menu</h3>
+              <ul class="list-unstyled f_list">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Testimonial">Testimonial</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
+              style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+              <ul class="list-unstyled f_list">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Term &amp; conditions</a></li>
+                <li><a href="#">Reporting</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Support Policy</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
+              style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+              <div class="f_social_icon">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bg">
+        <div class="footer_bg_one"></div>
+        <div class="footer_bg_two"></div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-sm-7">
+            <p class="mb-0 f_400">© DigitalYugg Pvt Ltd.. 2020 All rights reserved.</p>
+          </div>
+          <div class="col-lg-6 col-sm-5 text-right">
+            <p>Designed<i class="icon_heart"></i>By<a href="#">Kaify Khan</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
