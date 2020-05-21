@@ -3,163 +3,111 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS:Flexbox</title>
-  <link rel="stylesheet" href="./basic.css">
-  <link rel="stylesheet" href="./index.css">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>DigiTrez</title>
+  <link rel="stylesheet" href="Style/index.css">
+  <link rel="stylesheet" href="Style/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./Righteous/Righteous-Regular.ttf">
-  <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
 
 </head>
 
 <body>
-  <section id="">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#"><img src="./Images/logo.png"
-          style="height: 67px !important;width: 135px !important;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#banner">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#AboutUs">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Testimonial">Testimonial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contact">Contact</a>
-          </li>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#"
+          style="font-size:30px !important; font-weight: bold !important;text-decoration: none !important;color: black;padding-left: 28px !important;">
+          Digitrez
+        </a>
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#banner">Home</a></li>
+          <li><a href="#Services">Service</a></li>
+          <li><a href="#Testimonial">Testimonial</a></li>
+          <li><a href="#Portfolio">Our Works</a></li>
+          <li><a href="#AboutUs">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </nav>
-  </section>
+    </div>
+  </nav>
 
   <section id="banner">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 padding_Text">
-          <!-- <a href=""><img src="./Images/image_tech.png" class="Div2_img img-fluid z-depth-1 "></a> -->
-
+          <h1 class="promo-title typewriter">Digitrez</h1>
+          <p class="padding_btn">Digitrez is the best web solution for your business, You can get website / App as per
+            your requirements & We will be taking the resonsilbility to deliver you best features.</p>
+          <br />
+          <a href="#Contact"><button type="button" class="btn btn-info btn-rounded btn-lg"><span>Click for
+                Enquiries</span></button></a>
         </div>
         <div class="col-md-6 white_text">
-          <p class="promo-title" style="color: #fff !important;">BEST DIGITAL AGENCY</p>
-          <p class="padding_btn" style="color: #fff !important;">Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <a href="#Contact"><button type="button" class="btn btn-info btn-rounded btn-lg">Click for
-              Enquiries</i></button></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="animation">
-  </section>
-
-  <section id="AboutUs">
-    <div class="container-fluid">
-      <h2 class="font-weight-bold text-center dark-grey-text pb-2 OurServpadding" style="color: #fff !important;">ABOUT
-        US</h2>
-      <div class="row">
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-sm-6">
-              <h2>About Company Page</h2>
-              <h4>Lorem ipsum..</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </div>
-            <div class="col-sm-6">
-              <h2>Our Values</h2>
-              <h4><strong>MISSION:</strong> It is a long established fact that a reader will be distracted by the
-                readable content of a page when looking at its layout.</h4>
-              <p><strong>VISION:</strong>There are many variations of passages of Lorem Ipsum available, but the
-                majority have suffered alteration in some form, by injected humour, or randomised words which don't look
-                even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                isn't anything embarrassing hidden in the middle of text.</p>
-              <button type="button" class="btn btn-primary">Get in Touch</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <img src="./Images/logo.png" class="img-fluid z-depth-1 img-thumbnail">
+          <a href=""><img src="Images/Right_img.png" class="Div2_img img-fluid z-depth-1 lazy"></a>
         </div>
       </div>
     </div>
   </section>
 
   <section id="Services">
-    <h2 class="font-weight-bold text-center dark-grey-text pb-2 OurServpadding" style="color: #fff !important;">Our
+    <h2 class="font-weight-bold text-center dark-grey-text pb-2 OurServpadding">Our
       Services</h2>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-xl-3 mb-4">
+        <div class="col-md-3 margin">
           <div class="card text-center text-white">
             <div class="card-body">
-              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="./Images/Services_1.jpg"
+              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="Images/Services_1.jpg"
                 alt="Card image cap">
-              <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Website Development</a></h5>
-              <p class="mb-4" style="color: #fff !important;">Provides latest technology websites for the advancement of
+              <h4 class="font-weight-normal my-4 py-2"><a href="#">Website Development</a></h4>
+              <p class="mb-4">Provides latest technology websites for the advancement of
                 your business solution.</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-xl-3 mb-4">
+        <div class="col-md-3 margin">
           <div class="card text-center">
             <div class="card-body">
-              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="./Images/Services_2.jpg"
+              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="Images/Services_2.jpg"
                 alt="Card image cap">
-              <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Social Media Promotions</a></h5>
-              <p class="mb-4" style="color: #fff !important;">Promote your product or services in less time with great
+              <h4 class="font-weight-normal my-4 py-2"><a href="#">Social Media Promotions</a></h4>
+              <p class="mb-4">Promote your product or services in less time with great
                 efficiency.</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-xl-3 mb-4">
+        <div class="col-md-3 margin">
           <div class="card text-center deep-purple lighten-1 text-white">
             <div class="card-body">
-              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="./Images/Services_3.jpg"
+              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="Images/Services_3.jpg"
                 alt="Card image cap">
-              <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Mobile App Development</a></h5>
-              <p class="mb-4" style="color: #fff !important;">Get Mobile Apps (Android / IOS) to add wings for your
+              <h4 class="font-weight-normal my-4 py-2"><a href="#">Mobile App Development</a></h4>
+              <p class="mb-4">Get Mobile Apps (Android / IOS) to add wings for your
                 business.</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-xl-3">
+        <div class="col-md-3 margin">
           <div class="card text-center">
             <div class="card-body">
-              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="./Images/Services_4.jpg"
+              <img class="card-img-top img-fluid z-depth-1 img-thumbnail" src="Images/Services_4.jpg"
                 alt="Card image cap">
-              <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Wordpress Websites</a></h5>
-              <p class="mb-4" style="color: #fff !important;">Provides best design as per your business requirement in
+              <h4 class="font-weight-normal my-4 py-2"><a href="#">Wordpress Websites</a></h4>
+              <p class="mb-4">Provides best design as per your business requirement in
                 less rate.</p>
             </div>
           </div>
@@ -167,56 +115,120 @@
       </div>
     </div>
   </section>
-  <section class="section pb-3 text-center" id="Testimonial">
-    <h1 class="section-heading h1 pt-4" style="color: #fff !important;">Testimonial</h1>
-    <p class="section-description" style="color: #fff !important;">Our Client says about services</p>
+  <section class="container-fluid text-center my-5 p-1 padTopBottom" id="Testimonial">
+    <h2 class="h1-responsive font-weight-bold my-5">Testimonials</h2>
+    <h3 class="dark-grey-text w-responsive mx-auto mb-5 padBottom">What Our Client Says</h3>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4 margin">
+        <div class="card testimonial-card">
+          <div class="card-up info-color"></div>
+          <div class="avatar mx-auto white">
+            <img src="Images/Testimonial_Img1.png" class="rounded-circle img-fluid Testimonial_img">
+          </div>
+          <div class="card-body">
+            <h4 class="font-weight-bold mb-4">John Doe</h4>
+            <hr>
+            <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet eos
+              adipisci, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-md-0 mb-4 margin">
+        <div class="card testimonial-card">
+          <div class="card-up blue-gradient">
+          </div>
+          <div class="avatar mx-auto white">
+            <img src="Images/Testimonial_Img2.png" class="rounded-circle img-fluid Testimonial_img">
+          </div>
+          <div class="card-body">
+            <h4 class="font-weight-bold mb-4">Anna Aston</h4>
+            <hr>
+            <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Neque cupiditate assumenda in
+              maiores repudiandae mollitia architecto.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 margin">
+        <div class="card testimonial-card">
+          <div class="card-up indigo"></div>
+          <div class="avatar mx-auto white">
+            <img src="Images/Testimonial_Img3.png" class="rounded-circle img-fluid Testimonial_img">
+          </div>
+          <div class="card-body">
+            <h4 class="font-weight-bold mb-4">Maria Kate</h4>
+            <hr>
+            <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Delectus impedit saepe officiis
+              ab aliquam repellat rem unde ducimus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Portfolio" class="section pb-3 text-center">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4">
-          <div class="card testimonial-card">
-            <div class="card-up teal lighten-2">
-            </div>
-            <div class="avatar mx-auto white"><img src="./Images/Testimonial_Img1.png" alt="avatar mx-auto white"
-                class="rounded-circle img-fluid Testimonial_img">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title mt-1" style="color: #fff !important;">John Doe</h4>
-              <hr>
-              <p><i class="fas fa-quote-left" style="color: #fff !important;"></i> Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Eos,
-                adipisci.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12 mb-4">
-          <div class="card testimonial-card">
-            <div class="card-up blue lighten-2">
-            </div>
-            <div class="avatar mx-auto white"><img src="./Images/Testimonial_Img2.png" alt="avatar mx-auto white"
-                class="rounded-circle img-fluid Testimonial_img">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title mt-1" style="color: #fff !important;">Anna Aston</h4>
-              <hr>
-              <p><i class="fas fa-quote-left" style="color: #fff !important;"></i> Neque cupiditate assumenda in maiores
-                repudiandae mollitia
-                architecto.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12 mb-4">
-          <div class="card testimonial-card">
-            <div class="card-up deep-purple lighten-2"></div>
-            <div class="avatar mx-auto white"><img src="./Images/Testimonial_Img3.png" alt="avatar mx-auto white"
-                class="rounded-circle img-fluid Testimonial_img">
-            </div>
+        <div class="col-md-12 col-sm-12">
+          <h2 class="heading bold">PORTFOLIO</h2>
+          <h4 class="subheading">MOBILE, WEB AND BRAND IDENTITY</h4>
+          <!-- ISO section -->
+          <div class="iso-section">
+            <ul class="filter-wrapper clearfix">
+              <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+              <li><a href="#" class="opc-main-bg" data-filter=".html">Html</a></li>
+              <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
+              <li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
+              <li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
+            </ul>
+            <div class="iso-box-section wow fadeIn" data-wow-delay="0.1s">
+              <div class="iso-box-wrapper col4-iso-box">
 
-            <div class="card-body">
-              <h4 class="card-title mt-1" style="color: #fff !important;">Maria Kate</h4>
-              <hr>
-              <p><i class="fas fa-quote-left" style="color: #fff !important;"></i> Delectus impedit saepe officiis ab
-                aliquam repellat, rem totam
-                unde ducimus.</p>
+                <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                  <a href="Images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img1.jpg" alt="portfolio img"></a>
+                </div>
+
+                <div class="iso-box wordpress col-md-4 col-lg-4 col-sm-6 col-xs-6">
+                  <a href="Images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img2.jpg" alt="portfolio img"></a>
+                </div>
+
+                <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <a href="Images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img3.jpg" alt="portfolio img"></a>
+                </div>
+
+                <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                  <a href="Images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img4.jpg" alt="portfolio img"></a>
+                </div>
+
+                <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                  <a href="Images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img5.jpg" alt="portfolio img"></a>
+                </div>
+
+                <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <a href="Images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img6.jpg" alt="portfolio img"></a>
+                </div>
+
+                <div class="iso-box photoshop mobile col-lg-4 col-md-4 col-sm-12 col-xs-6">
+                  <a href="Images/portfolio-img7.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img7.jpg" alt="portfolio img"></a>
+                </div>
+
+                <div class="iso-box photoshop mobile col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                  <a href="Images/portfolio-img8.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img8.jpg" alt="portfolio img"></a>
+                </div>
+
+                <div class="iso-box wordpress mobile col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <a href="Images/portfolio-img9.jpg" data-lightbox-gallery="portfolio-gallery"><img
+                      src="Images/portfolio-img9.jpg" alt="portfolio img"></a>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
@@ -224,215 +236,176 @@
     </div>
   </section>
 
-  <section class="section pb-3 text-center" id="Portfolio">
-    <h1 class="section-heading h1 pt-4" style="color: #fff !important;">Portfolio</h1>
-    <p class="section-description" style="color: #fff !important;">Sample Site what we designed for our clients</p>
+  <section id="AboutUs">
+    <div class="container-fluid">
+      <h2 class="font-weight-bold text-center dark-grey-text pb-2 OurServpadding">ABOUT
+        US</h2>
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>About Digitrez</h2>
+          <p>Digitrez is an startup in the field of IT Solution like Website creations, App development & social media
+            marketing.</p>
+          <h2>Our Values</h2>
+          <h4><strong>MISSION:</strong>TO deliver you quality design for your business.</h4>
+          <p><strong>VISION:</strong>We believe in quality not quantity & we will provide the best quote in the market
+            as per your budget. We will provide special offers in website designing & will try to deliver you as soon as
+            possible.</p>
+          <br />
+          <a href="#contact"><button type="button" class="btn btn-primary"><span>Contact Us</span></button></a>
+        </div>
+        <div class=" col-sm-1"></div>
+        <div class="col-sm-5">
+          <img src="Images/about.png" class="img-fluid z-depth-1 img-thumbnail marginTop">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="Contact" class="home-section">
     <div class="container">
       <div class="row">
-        <div id="carousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-          </ol>
-          <div class="carousel-inner Careousel_items">
-            <div class="carousel-item active">
-              <div class="d-none d-lg-block">
-                <div class="slide-box">
-                  <img src="./Images/demo1.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo2.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo3.jpg" alt="First slide" class="px-2">                
-                  <img src="./Images/demo4.jpg" alt="First slide" class="px-2">
-                </div>
-              </div>
-              <div class="d-none d-md-block d-lg-none">
-                <div class="slide-box">
-                  <img src="./Images/demo1.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo2.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo3.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo4.jpg" alt="First slide" class="px-2">
-                </div>
-              </div>
-              <div class="d-none d-sm-block d-md-none">
-                <div class="slide-box">
-                  <img src="./Images/demo1.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo2.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo3.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo4.jpg" alt="First slide" class="px-2">
-                  <img src="./Images/demo1.jpg" alt="First slide" class="px-2">
-                </div>
-              </div>
-              <div class="d-block d-sm-none">
-                <img class="d-block w-100 px-2" src="https://picsum.photos/600/400/?image=0&random" alt="Seceond slide">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-none d-lg-block">
-                <div class="slide-box">
-                  <img src="./Images/demo1.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo2.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo3.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo4.jpg" alt="Seceond slide" class="px-2">
-                </div>
-              </div>
-              <div class="d-none d-md-block d-lg-none">
-                <div class="slide-box">
-                  <img src="./Images/demo1.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo2.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo3.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo4.jpg" alt="Seceond slide" class="px-2">
-                </div>
-              </div>
-              <div class="d-none d-sm-block d-md-none">
-                <div class="slide-box">
-                  <img src="./Images/demo1.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo2.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo3.jpg" alt="Seceond slide" class="px-2">
-                  <img src="./Images/demo4.jpg" alt="Seceond slide" class="px-2">
-                </div>
-              </div>
-              <div class="d-block d-sm-none">
-                <img src="./Images/demo1.jpg" alt="Seceond slide" class="px-2">
-                <img src="./Images/demo2.jpg" alt="Seceond slide" class="px-2">
-                <img src="./Images/demo3.jpg" alt="Seceond slide" class="px-2">
-                <img src="./Images/demo4.jpg" alt="Seceond slide" class="px-2">
-              </div>
-            </div>
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2 class="text-align">Contact us</h2>
+            <div class="heading-line"></div>
+            <p class="text-align">If you have any question or just want to say 'hello' to digitrez team, please fill out
+              form below and
+              we will be get in touch with you within 24 hours. </p>
           </div>
-          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 align_center">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+
+          <form action="" method="post" class="form-horizontal contactForm" role="form">
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                  data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-2 col-md-8">
+                <button type="submit" class="btn btn-theme btn-lg btn-block" style="background-color: blue;">Send
+                  message</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="Contact">
-    <div class="bg-info contact4 overflow-hiddedn position-relative">
-      <div class="row no-gutters">
-        <div class="container">
-          <div class="col-lg-6 contact-box mb-4 mb-md-0">
-            <div class="">
-              <h1 class="title font-weight-light text-white mt-2" style="color: #fff !important;">Contact Us</h1>
-              <form class="mt-3">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="form-group mt-2">
-                      <input class="form-control text-white" type="text" placeholder="name">
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="form-group mt-2">
-                      <input class="form-control text-white" type="email" placeholder="email address">
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="form-group mt-2">
-                      <textarea class="form-control text-white" rows="3" placeholder="message"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 d-flex align-items-center mt-2">
-                    <button type="submit" class="btn bg-white text-inverse px-3 py-2"><span> Submit</span></button>
-                    <!-- <span class="ml-auto text-white align-self-center"><i class="icon-phone mr-2"></i>251 546
-                      9442</span> -->
-                  </div>
-                </div>
-              </form>
-            </div>
+  <section id="bottom-widget" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-align margin">
+          <div class="contact-widget wow bounceInLeft">
+            <i class="fa fa-map-marker fa-4x"></i>
+            <h5>Main Office</h5>
+            <p>
+              Marathahalli,<br />Bangalore,KA-560037,India
+            </p>
           </div>
         </div>
-        <div class="col-lg-6 right-image">
-          <iframe width="800px" height="850px" frameborder="0"
-            style="border:0 !important; padding-top: 160px !important; padding-right: 60px !important;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.232759893894!2d77.69934651484938!3d12.956952418705228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae12336cac1167%3A0x33857608d9235f78!2sMarathahalli%20Bridge%2C%20Outer%20Ring%20Rd%2C%20Marathahalli%2C%20Bengaluru%2C%20Karnataka%20560037!5e0!3m2!1sen!2sin!4v1589111702400!5m2!1sen!2sin"></iframe>
+        <div class="col-md-4 text-align margin">
+          <div class="contact-widget wow bounceInUp">
+            <i class="fa fa-phone fa-4x"></i>
+            <h5>Call</h5>
+            <p>
+              +91 8853838908
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 text-align margin">
+          <div class="contact-widget wow bounceInRight">
+            <i class="fa fa-envelope fa-4x"></i>
+            <h5>Email us</h5>
+            <p>
+              Kaifykhan988@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mar-top30">
+        <div class="col-md-12 text-align">
+          <h5>We're on social networks</h5>
+          <ul class="social-network">
+            <li><a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+            <li><a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+            <li><a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+            <li><a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <footer class="new_footer_area bg_color">
-    <div class="new_footer_top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
-              style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
-              <p>Don’t miss any updates of our Company.!</p>
-              <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
-                <p class="mchimp-errmessage" style="display: none;"></p>
-                <p class="mchimp-sucmessage" style="display: none;"></p>
-              </form>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
-              style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Menu</h3>
-              <ul class="list-unstyled f_list">
-                <li><a href="#banner">Home</a></li>
-                <li><a href="#AboutUs">About Us</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Testimonial">Testimonial</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
-              style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Help</h3>
-              <ul class="list-unstyled f_list">
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Term &amp; conditions</a></li>
-                <li><a href="#">Reporting</a></li>
-                <li><a href="#">Documentation</a></li>
-                <li><a href="#">Support Policy</a></li>
-                <li><a href="#">Privacy</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
-              style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
-              <div class="f_social_icon">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-pinterest"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer_bg">
-        <div class="footer_bg_one"></div>
-        <div class="footer_bg_two"></div>
-      </div>
-    </div>
-    <div class="footer_bottom">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-sm-7">
-            <p class="mb-0 f_400">© DigitalYugg Pvt Ltd.. 2020 All rights reserved.</p>
-          </div>
-          <div class="col-lg-6 col-sm-5 text-right">
-            <p>Designed<i class="icon_heart"></i>By<a href="#">Kaify Khan</a></p>
+
+  <footer id="footer_bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-align">
+          <p>Copyright &copy; Digitrez Pvt Ltd. All rights reserved.</p>
+          <div class="credits">
+            Designed by <a href="http://www.digitrez.com/" Style="color: black;text-decoration: none;">KAIFYKHAN</a>
           </div>
         </div>
       </div>
     </div>
   </footer>
 
-
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -443,6 +416,41 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+
+  <script src="Script/jquery.js"></script>
+  <script src="Script/bootstrap.min.js"></script>
+  <script src="Script/wow.min.js"></script>
+  <script src="Script/jquery.scrollTo.min.js"></script>
+  <script src="Script/jquery.nav.js"></script>
+  <script src="Script/modernizr.custom.js"></script>
+  <script src="Script/grid.js"></script>
+  <script src="Script/stellar.js"></script>
+  <script src="contactform/contactform.js"></script>
+  <script src="Script/custom.js"></script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script>
+    $('.testi1').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: false,
+      dots: true,
+      autoplay: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        1024: {
+          items: 2
+        }
+      }
+    });
+
+  </script>
 
 </body>
 
